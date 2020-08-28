@@ -1,0 +1,51 @@
+.button{
+    color: orange!important;
+}
+
+.button:hover{
+    color: yellow;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.prd-nm{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    font-family: Algerian;
+}
+
+.bg-modol{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.modol-content{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.prd_op{
+    text-align: center;
+    font-size: 20px;
+    background-color: wheat;
+    font-family: "Arial Black";
+}
