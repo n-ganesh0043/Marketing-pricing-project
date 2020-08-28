@@ -141,7 +141,7 @@ document.querySelector('.close').addEventListener('click',function ()
               <td class="prd_op"><a href=""> <img src="{% static 'images/refresh.png' %}" width="60px" height="40px"  id="button"></a>
                   <a href="{% url 'delete' %}?idno={{ x.prd_id }}"><img src="{% static 'images/bin.png' %}" width="40px" height="40px" onclick="return confirm('Are  u really want to delete?')"></a>
           </td>
-
+          </tr>
           </tbody>
       {% endfor %}
   </table>
